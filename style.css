@@ -31,6 +31,14 @@ nav>a:hover{
     width:300px;
     padding:20px;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 .experience{
     background-color: #ff9e00;
@@ -63,4 +71,9 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
